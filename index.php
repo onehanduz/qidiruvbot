@@ -1,8 +1,8 @@
 <?php
-define("API_KEY","1225097122:AAHsz5R0fyIXpUf6wMDX7gre9wThd35_Ekk"); // bot tokeni
-$creator = array("1314213542");
-$kanal_1 = "@Sevgim_Dardim"; // birinchi kanal usernamesi
-$bot = "@Qidiruvchi_Robot"; // bot useri
+define("API_KEY","1225097122:AAHcAvJYXQqM2DEOqnR_nVWNQyzAFO9_nVM"); // bot tokeni
+$creator = array("1314213542", "1886494959");
+$kanal_1 = "@igeyes"; // birinchi kanal usernamesi
+$bot = "@pbiuzbot"; // bot useri
 function bot($method,$datas=[]){
 $url = "https://api.telegram.org/bot".API_KEY."/".$method;
 $ch = curl_init();
@@ -54,7 +54,7 @@ if($res1 == "left"){
     'chat_id'=>$chat_id,
     'text'=>"*Botdan foydalanish uchun quyidagi kanallarimizga obuna bo'ling
 
-    A'zo bo'lib qayta /start bosing*[.](https://telegra.ph/file/0ed1d8443fcd34e6239d0.jpg)",
+    A'zo bo'lib qayta /start bosing*[.](https://telegra.ph/file/225f28335a0dcb05e69ca.jpg)",
     'parse_mode'=>"markdown",
     'reply_markup'=>json_encode([
     'inline_keyboard'=>[
@@ -81,7 +81,7 @@ if($text == "/settings"){
 bot('sendMessage',[
 'chat_id'=>$chat_id,
 'text'=>"*Assalomu alaykum, 
-Siz $bot orqali nima qidirishni xoxlaysiz*[.](https://telegra.ph/file/52f7b2b61ec103687b15c.jpg)",
+Siz $bot orqali nima qidirishni xoxlaysiz*[.](https://telegra.ph/file/225f28335a0dcb05e69ca.jpg)",
 'parse_mode'=>"markdown",
 'reply_markup' => json_encode([
 'inline_keyboard'=>[
@@ -101,7 +101,7 @@ bot('sendmessage',[
 'message_id'=>$callmid,
 'text'=>"*Shunchaki menga Qo'shiqchi yoki qo'shiq nomini jo'nating va men siz uchun musiqa topib beraman.
 
-/settings - Qidiruv sozlamalari*[.](https://telegra.ph/file/0165b30b6043c13e11502.jpg)",
+/settings - Qidiruv sozlamalari*[.](https://telegra.ph/file/225f28335a0dcb05e69ca.jpg)",
 'parse_mode'=>"markdown",
 ]);
 }
@@ -114,7 +114,7 @@ bot('sendmessage',[
 'chat_id'=>$chat_id,
 'text'=>"*Shunchaki menga Qo'shiqchi yoki qo'shiq nomini jo'nating va men siz uchun musiqa topib beraman.
 
-/settings - Qidiruv sozlamalari*[.](https://telegra.ph/file/0165b30b6043c13e11502.jpg)",
+/settings - Qidiruv sozlamalari*[.](https://telegra.ph/file/225f28335a0dcb05e69ca.jpg)",
 'parse_mode'=>"markdown",
 'reply_markup'=>$menu,
 ]);
@@ -131,7 +131,7 @@ bot('sendmessage',[
 'message_id'=>$callmid,
 'text'=>"*Menga Kitob nomini yuboring men sizga fayllarni topib beraman.
 
-/settings - Qidiruv sozlamalari*[.](https://telegra.ph/file/56a5f59fe9f98b2f98279.jpg)",
+/settings - Qidiruv sozlamalari*[.](https://telegra.ph/file/225f28335a0dcb05e69ca.jpg)",
 'parse_mode'=>"markdown",
 ]);
 }
@@ -144,7 +144,7 @@ bot('sendmessage',[
 'chat_id'=>$chat_id,
 'text'=>"*Menga Kitob nomini yuboring men sizga fayllarni topib beraman.
 
-/settings - Qidiruv sozlamalari*[.](https://telegra.ph/file/56a5f59fe9f98b2f98279.jpg)",
+/settings - Qidiruv sozlamalari*[.](https://telegra.ph/file/225f28335a0dcb05e69ca.jpg)",
 'parse_mode'=>"markdown",
 'reply_markup'=>$menu,
 ]);
