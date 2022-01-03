@@ -1,5 +1,5 @@
 <?php
-define("API_KEY","1225097122:AAHcAvJYXQqM2DEOqnR_nVWNQyzAFO9_nVM"); // bot tokeni
+define("API_KEY","1714082781:AAEQmOjVsvA_PkcTPtJzoGhlbUY9GYkjbqI"); // bot tokeni
 $creator = array("1314213542", "1886494959");
 $kanal_1 = "@igeyes"; // birinchi kanal usernamesi
 $bot = "@pbiuzbot"; // bot useri
